@@ -140,7 +140,7 @@ export default function ContentList({items, contentType, checkout = "CheckOut", 
                 <span className="text-3xl font-bold">{post.data.title}</span>
                 <div className="flex gap-3 text-yellow-400">
                 {post.tags.map((tag, index) => (
-                <span key={index} className="inline-block text-sm font-semibold text-gray-700 mr-2 mb-2 sm:text-lg sm:mr-3 sm:mb-0 lg:text-base lg:mr-4 lg:mb-0">
+                <span key={index} className="text-lg font-bold w-[100px]">
                   {tag}
                 </span>
               ))}
