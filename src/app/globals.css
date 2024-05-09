@@ -22,3 +22,8 @@
         scrollbar-width: none;  
   }
 }
+@media (max-width: 639px) {
+  .hide-tag {
+    width: 60px;
+  }
+}
