@@ -19,7 +19,6 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
 
   useEffect(() => {
     let ctx = gsap.context(() => {
-      // create as many GSAP animations and/or ScrollTriggers here as you want...
       gsap
         .timeline()
         .fromTo(
