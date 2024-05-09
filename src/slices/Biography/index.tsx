@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import { Content } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
+
+
 import Avatar from "./Avatar";
 
 /**
@@ -25,7 +27,7 @@ const Biography = ({ slice }: BiographyProps): JSX.Element => {
           {slice.primary.heading}
         </Heading>
         <div className="prose prose-xl prose-slate prose-invert col-start-1">
-          <PrismicRichText field={slice.primary.description} />
+          {/* <PrismicRichText field={slice.primary.descr} /> */}
         </div>
         <Button linkField={slice.primary.button_link} label={slice.primary.button_text}  />
 
