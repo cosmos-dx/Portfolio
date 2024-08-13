@@ -4,7 +4,7 @@
 
 My personal portfolio website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) and deployed to [Vercel](https://vercel.com/).
 
-It is supposed to be used as a **template for other GitHub users' portfolios**. Data about user and projects are gathered via GitHub and Vercel API.
+Set Up Prismic.io
 
 ## Tech stack
 - **Framework**: [Next.js](https://nextjs.org/)
