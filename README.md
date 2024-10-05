@@ -13,3 +13,4 @@ Set Up Prismic.io
 ## Running Locally
 
 
+Updated Resume 1.0
